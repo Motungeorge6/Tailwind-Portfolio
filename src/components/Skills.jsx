@@ -3,7 +3,6 @@ import Html from '../assets/html.png'
 import CSS from'../assets/css.png'
 import JavaScript from '../assets/javascript.png'
 import ReactImg from '../assets/reacts.png'
-import Netlify from '../assets/netlify.png'
 import Github from '../assets/github.png'
 import Tailwind from '../assets/taiwind.png'
 import Vue from '../assets/vue.png'
@@ -36,10 +35,7 @@ const Skills = () => {
                     <img className='w-20 mx-auto' src={ReactImg} alt="React icon" />
                     <p>REACT</p>
                 </div>
-                {/* <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={Netlify} alt="Netlify icon" />
-                    <p>NETLIFY</p>
-                </div> */}
+                
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={Github} alt="Github icon" />
                     <p>GITHUB</p>
